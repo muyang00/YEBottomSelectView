@@ -31,7 +31,10 @@ class ViewController: UIViewController {
         let option2 = SelectViewInfo(title: "视频聊天", color: nil)
         BottomSelectView.show(title: "请选择聊天方式？", options: [option1, option2], cancelTitle: nil, selectCallBack: { index in
             print(index)
-        })
+        }){
+            print("取消")
+        }
+
         
     }
 
@@ -44,8 +47,10 @@ class ViewController: UIViewController {
         
         BottomSelectView.show(title: "请选择聊天方式？", options: [option1, option2, option3], cancelTitle: cancel, selectCallBack: { index in
             print(index)
-        })
-        
+        }){
+            print("取消")
+        }
+
         
     }
 
