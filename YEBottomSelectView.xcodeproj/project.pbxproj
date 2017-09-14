@@ -15,6 +15,9 @@
 		B44FDDA71F6922490055B988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44FDDA51F6922490055B988 /* LaunchScreen.storyboard */; };
 		B44FDDB21F6922490055B988 /* YEBottomSelectViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FDDB11F6922490055B988 /* YEBottomSelectViewTests.swift */; };
 		B44FDDBD1F6922490055B988 /* YEBottomSelectViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FDDBC1F6922490055B988 /* YEBottomSelectViewUITests.swift */; };
+		B44FDDCC1F69230A0055B988 /* BottomSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FDDCA1F69230A0055B988 /* BottomSelectCell.swift */; };
+		B44FDDCD1F69230A0055B988 /* BottomSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44FDDCB1F69230A0055B988 /* BottomSelectCell.xib */; };
+		B44FDDCF1F692B500055B988 /* BottomSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FDDCE1F692B500055B988 /* BottomSelectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B44FDDB81F6922490055B988 /* YEBottomSelectViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YEBottomSelectViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44FDDBC1F6922490055B988 /* YEBottomSelectViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YEBottomSelectViewUITests.swift; sourceTree = "<group>"; };
 		B44FDDBE1F6922490055B988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44FDDCA1F69230A0055B988 /* BottomSelectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSelectCell.swift; sourceTree = "<group>"; };
+		B44FDDCB1F69230A0055B988 /* BottomSelectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomSelectCell.xib; sourceTree = "<group>"; };
+		B44FDDCE1F692B500055B988 /* BottomSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSelectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				B44FDD991F6922490055B988 /* AppDelegate.swift */,
 				B44FDD9B1F6922490055B988 /* ViewController.swift */,
+				B44FDDCE1F692B500055B988 /* BottomSelectView.swift */,
+				B44FDDCA1F69230A0055B988 /* BottomSelectCell.swift */,
+				B44FDDCB1F69230A0055B988 /* BottomSelectCell.xib */,
 				B44FDD9D1F6922490055B988 /* Main.storyboard */,
 				B44FDDA31F6922490055B988 /* Assets.xcassets */,
 				B44FDDA51F6922490055B988 /* LaunchScreen.storyboard */,
@@ -237,6 +246,7 @@
 			files = (
 				B44FDDA71F6922490055B988 /* LaunchScreen.storyboard in Resources */,
 				B44FDDA41F6922490055B988 /* Assets.xcassets in Resources */,
+				B44FDDCD1F69230A0055B988 /* BottomSelectCell.xib in Resources */,
 				B44FDD9F1F6922490055B988 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +274,8 @@
 			files = (
 				B44FDD9C1F6922490055B988 /* ViewController.swift in Sources */,
 				B44FDDA21F6922490055B988 /* YEBottomSelectView.xcdatamodeld in Sources */,
+				B44FDDCF1F692B500055B988 /* BottomSelectView.swift in Sources */,
+				B44FDDCC1F69230A0055B988 /* BottomSelectCell.swift in Sources */,
 				B44FDD9A1F6922490055B988 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +523,7 @@
 				B44FDDC31F6922490055B988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44FDDC41F6922490055B988 /* Build configuration list for PBXNativeTarget "YEBottomSelectViewTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +532,7 @@
 				B44FDDC61F6922490055B988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44FDDC71F6922490055B988 /* Build configuration list for PBXNativeTarget "YEBottomSelectViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +541,7 @@
 				B44FDDC91F6922490055B988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
